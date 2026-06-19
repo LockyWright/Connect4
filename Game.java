@@ -1,4 +1,4 @@
-// Responsible for orhcestrating the game and managing game logic (e.g., which players turn it is)
+// Responsible for orchestrating the game and managing game logic (e.g., which players turn it is)
 public class Game {
     private Board board;
     private Player human;

@@ -32,7 +32,7 @@ public class Board{
                     System.out.print("[ ]");
                 }
                 else if (board[row][column] == Cell.COMPUTER){
-                    System.out.print("[O]");
+                    System.out.print("[O]"); // Chose tokens O, X for readability instead of r, y
                 }
                 else {
                     System.out.print("[X]");
@@ -41,7 +41,7 @@ public class Board{
             System.out.println();
         }
         System.out.println(" 1  2  3  4  5  6  7 "); // Label for each column
-        System.out.println("____________________"); // Added a break and new line for readability between goes
+        System.out.println("____________________"); // Added a break and new line for readability between turns
         System.out.println();
     }
 
